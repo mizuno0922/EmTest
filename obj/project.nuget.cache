@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "iP54n2qLF4UE8lIh1kRgP9OqLGdXOAPH86KtwR7yQE+1oUywDNpCbFsvWiRqOG+E4v2pqPTj2W2cA4Ie/TBCEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yukik\\Emarf_myself\\emrf_lib_core_component_example\\emarf_component_example\\emarf_component_example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yukik\\.nuget\\packages\\grasshopper\\7.34.23267.11001\\grasshopper.7.34.23267.11001.nupkg.sha512",
+    "C:\\Users\\yukik\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\yukik\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.2\\microsoft.netframework.referenceassemblies.net48.1.0.2.nupkg.sha512",
+    "C:\\Users\\yukik\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\yukik\\.nuget\\packages\\rhinocommon\\7.34.23267.11001\\rhinocommon.7.34.23267.11001.nupkg.sha512"
+  ],
+  "logs": []
+}

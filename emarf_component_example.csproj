@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	
+	<PropertyGroup>
+        <TargetFrameworks>net48</TargetFrameworks>
+        <Version>1.0</Version>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<!-- Rhino 7のバージョンを使用しているため、RhinoCommonの参照をそのバージョンに合わせて更新 -->
+		<PackageReference Include="RhinoCommon" Version="7.34.23267.11001"/>
+		<PackageReference Include="Grasshopper" Version="7.34.23267.11001" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\dotnet\NativeMethods.g.cs" Condition="Exists('C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\dotnet\NativeMethods.g.cs')"/>
+	</ItemGroup>
+
+</Project>

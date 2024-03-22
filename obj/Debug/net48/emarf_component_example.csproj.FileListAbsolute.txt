@@ -1,0 +1,11 @@
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.csproj.AssemblyReference.cache
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.AssemblyInfoInputs.cache
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.AssemblyInfo.cs
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.csproj.CoreCompileInputs.cache
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\bin\Debug\net48\emarf_component_example.dll
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\bin\Debug\net48\emarf_component_example.pdb
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.csproj.CopyComplete
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.dll
+C:\Users\yukik\Emarf_myself\emrf_lib_core_component_example\emarf_component_example\obj\Debug\net48\emarf_component_example.pdb
