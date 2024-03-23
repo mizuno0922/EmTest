@@ -20,29 +20,28 @@ namespace CsBindgen
         public static extern int my_add(int x, int y);
 
         [DllImport(__DllName, EntryPoint = "create_cube", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
-        public static extern IntPtr create_cube(double size);
+        public static extern System.IntPtr create_cube(double size);
 
         [DllImport(__DllName, EntryPoint = "free_polygon_mesh", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
-        public static extern void free_polygon_mesh(IntPtr ptr);
+        public static extern void free_polygon_mesh(System.IntPtr ptr);
 
-         [DllImport(__DllName, EntryPoint = "get_vertices", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
-        public static extern float* get_vertices(IntPtr mesh);
+        [DllImport(__DllName, EntryPoint = "get_vertices", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern float* get_vertices(System.IntPtr mesh_ptr);
 
         [DllImport(__DllName, EntryPoint = "get_faces", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
-        public static extern int* get_faces(IntPtr mesh);
+        public static extern int* get_faces(System.IntPtr mesh_ptr);
 
-        // C#側のP/Invoke宣言
-        [DllImport(__DllName, EntryPoint = "get_vertex_count", CallingConvention = CallingConvention.Cdecl)]
-        public static extern int get_vertex_count(IntPtr mesh);
+        [DllImport(__DllName, EntryPoint = "get_vertex_count", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern int get_vertex_count(System.IntPtr mesh_ptr);
 
-        [DllImport(__DllName, EntryPoint = "get_face_count", CallingConvention = CallingConvention.Cdecl)]
-        public static extern int get_face_count(IntPtr mesh);
+        [DllImport(__DllName, EntryPoint = "get_face_count", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern int get_face_count(System.IntPtr mesh_ptr);
 
         [DllImport(__DllName, EntryPoint = "free_vertices", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
-        public static extern void free_vertices(IntPtr ptr);
+        public static extern void free_vertices(System.IntPtr ptr);
 
         [DllImport(__DllName, EntryPoint = "free_faces", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
-        public static extern void free_faces(IntPtr ptr);
+        public static extern void free_faces(System.IntPtr ptr);
 
 
     }
