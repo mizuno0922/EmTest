@@ -33,7 +33,7 @@ namespace GenCube
 
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            double size = 0;
+            double size = -1;
             if (!DA.GetData(0, ref size))
             {
                 AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "No size input provided.");
