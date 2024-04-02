@@ -19,6 +19,30 @@ namespace CsBindgen
         [DllImport(__DllName, EntryPoint = "my_add", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
         public static extern int my_add(int x, int y);
 
+        [DllImport(__DllName, EntryPoint = "construct_point3", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern System.IntPtr construct_point3(double x, double y, double z);
+
+        [DllImport(__DllName, EntryPoint = "point3_free", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern void point3_free(System.IntPtr pptr);
+
+        [DllImport(__DllName, EntryPoint = "point3_get_x", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern double point3_get_x(System.IntPtr pptr);
+
+        [DllImport(__DllName, EntryPoint = "point3_get_y", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern double point3_get_y(System.IntPtr pptr);
+
+        [DllImport(__DllName, EntryPoint = "point3_get_z", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern double point3_get_z(System.IntPtr pptr);
+
+        [DllImport(__DllName, EntryPoint = "free_ptx", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern void free_ptx(System.IntPtr pptr);
+
+        [DllImport(__DllName, EntryPoint = "free_pty", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern void free_pty(System.IntPtr pptr);
+
+        [DllImport(__DllName, EntryPoint = "free_ptz", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
+        public static extern void free_ptz(System.IntPtr pptr);
+
         [DllImport(__DllName, EntryPoint = "create_cube", CallingConvention = CallingConvention.Cdecl, ExactSpelling = true)]
         public static extern System.IntPtr create_cube(double size);
 
